@@ -91,13 +91,16 @@ console.log(sortedByDate);
 // 1. Filter the list of products between 50€ and 100€
 // 2. Log the list
 
-console.log(marketplace.filter(product => product.price >= 50 && product.price <= 100))
+console.log(marketplace.filter(product =>
+  product.price >= 50 && product.price <= 100))
 
 
 // 🎯 TODO: Average Basket
 // 1. Determine the average basket of the marketplace
 // 2. Log the average
 
+console.log(marketplace.reduce((total, next) =>
+  total + next.price, 0) / numberOfProducts);
 
 /**
  * 🏎
