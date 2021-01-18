@@ -1,4 +1,5 @@
-// Invoking strict mode https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#invoking_strict_mode
+// Invoking strict mode
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#invoking_strict_mode
 'use strict';
 
 console.log('🚀 This is it.');
@@ -16,9 +17,6 @@ const MY_FAVORITE_BRANDS = [{
 
 console.table(MY_FAVORITE_BRANDS);
 console.log(MY_FAVORITE_BRANDS[0]);
-
-
-
 
 
 /**
@@ -70,14 +68,21 @@ console.log(brandNames)
 
 // 🎯 TODO: Sort by price
 // 1. Create a function to sort the marketplace products by price
-// 2. Create a variable and assign it the list of products by price from lowest to highest
-// 3. Log the variable
+// 2. Create a variable and assign it the list of products by price from lowest
+// to highest 3. Log the variable
+
+const sortFunction = (a, b) => {
+  return a.price < b.price ? -1 : a.price === b.price ? 0 : 1;
+}
+
+const sortedByPrice = marketplace.sort(sortFunction);
+console.log(sortedByPrice);
 
 
 // 🎯 TODO: Sort by date
 // 1. Create a function to sort the marketplace objects by products date
-// 2. Create a variable and assign it the list of products by date from recent to old
-// 3. Log the variable
+// 2. Create a variable and assign it the list of products by date from recent
+// to old 3. Log the variable
 
 
 // 🎯 TODO: Filter a specific price range
@@ -88,9 +93,6 @@ console.log(brandNames)
 // 🎯 TODO: Average Basket
 // 1. Determine the average basket of the marketplace
 // 2. Log the average
-
-
-
 
 
 /**
@@ -127,9 +129,6 @@ console.log(brandNames)
 // 2. Log the sort
 
 
-
-
-
 /**
  * 💶
  * Let's talk about money now
@@ -139,10 +138,8 @@ console.log(brandNames)
 
 // 🎯 TODO: Compute the p90 price value
 // 1. Compute the p90 price value of each brand
-// The p90 value (90th percentile) is the lower value expected to be exceeded in 90% of the products
-
-
-
+// The p90 value (90th percentile) is the lower value expected to be exceeded
+// in 90% of the products
 
 
 /**
@@ -254,10 +251,8 @@ blueJacket = {
   'uuid': 'b4b05398-fee0-4b31-90fe-a794d2ccfaaa'
 };
 
-// 3. Update `jacket` property with `favorite` to true WITHOUT changing blueJacket properties
-
-
-
+// 3. Update `jacket` property with `favorite` to true WITHOUT changing
+// blueJacket properties
 
 
 /**
