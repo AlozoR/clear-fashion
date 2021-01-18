@@ -71,11 +71,9 @@ console.log(brandNames)
 // 2. Create a variable and assign it the list of products by price from lowest
 // to highest 3. Log the variable
 
-const sortFunction = (a, b) => {
-  return a.price < b.price ? -1 : a.price === b.price ? 0 : 1;
-}
+const sortPrice = (a, b) => a.price - b.price;
 
-const sortedByPrice = marketplace.sort(sortFunction);
+const sortedByPrice = marketplace.sort(sortPrice);
 console.log(sortedByPrice);
 
 
@@ -84,6 +82,10 @@ console.log(sortedByPrice);
 // 2. Create a variable and assign it the list of products by date from recent
 // to old 3. Log the variable
 
+const sortDate = (a, b) => a.date < b.date ? -1 : a.date === b.date ? 0 : 1;
+
+const sortedByDate = marketplace.sort(sortDate);
+console.log(sortedByDate);
 
 // 🎯 TODO: Filter a specific price range
 // 1. Filter the list of products between 50€ and 100€
