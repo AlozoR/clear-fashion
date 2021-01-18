@@ -140,6 +140,9 @@ console.log(brands);
 // 1. For each brand, sort the products by price, from highest to lowest
 // 2. Log the sort
 
+for (const [key, value] of Object.entries(brands)) {
+  console.log(value.sort(sortPrice).reverse())
+}
 
 // 🎯 TODO: Sort by date for each brand
 // 1. For each brand, sort the products by date, from old to recent
