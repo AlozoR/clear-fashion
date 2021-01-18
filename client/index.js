@@ -34,8 +34,8 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // I can find on these e-shops
 // 2. Log the variable
 
-
-
+const cheapestTShirt = 'https://www.loom.fr/products/le-t-shirt';
+console.log(cheapestTShirt);
 
 
 /**
@@ -140,7 +140,8 @@ console.log(MY_FAVORITE_BRANDS[0]);
  * Cool for your effort.
  * It's almost done
  * Now we manipulate the variable `COTELE_PARIS`
- * `COTELE_PARIS` is a list of products from https://coteleparis.com/collections/tous-les-produits-cotele
+ * `COTELE_PARIS` is a list of products from
+ * https://coteleparis.com/collections/tous-les-produits-cotele
  * 🧥
  */
 
