@@ -84,7 +84,7 @@ console.log(sortedByPrice);
 
 const sortDate = (a, b) => a.date < b.date ? -1 : a.date === b.date ? 0 : 1;
 
-const sortedByDate = marketplace.sort(sortDate);
+const sortedByDate = marketplace.sort(sortDate).reverse();
 console.log(sortedByDate);
 
 // 🎯 TODO: Filter a specific price range
@@ -125,7 +125,6 @@ console.log(marketplace.reduce((total, next) =>
 // 2. Log the variable
 // 3. Log the number of products by brands
 
-console.log(brandNames)
 const brands = {}
 for (const brand of brandNames) {
   brands[brand] = [];
@@ -148,6 +147,9 @@ for (const [key, value] of Object.entries(brands)) {
 // 1. For each brand, sort the products by date, from old to recent
 // 2. Log the sort
 
+for (const [key, value] of Object.entries(brands)) {
+  console.log(value.sort(sortDate))
+}
 
 /**
  * 💶
