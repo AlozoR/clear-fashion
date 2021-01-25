@@ -1,5 +1,7 @@
 // Invoking strict mode
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#invoking_strict_mode
+/*global marketplace*/
+
 'use strict';
 
 console.log('🚀 This is it.');
@@ -13,7 +15,7 @@ const MY_FAVORITE_BRANDS = [{
 }, {
   'name': 'ADRESSE',
   'url': 'https://adresse.paris/'
-}]
+}];
 
 console.table(MY_FAVORITE_BRANDS);
 console.log(MY_FAVORITE_BRANDS[0]);
@@ -57,13 +59,13 @@ console.log(numberOfProducts);
 // 2. Log the variable
 // 3. Log how many brands we have
 
-const brandNames = []
+const brandNames = [];
 for (const product of marketplace) {
   if (!(brandNames.includes(product.brand))) {
-    brandNames.push(product.brand)
+    brandNames.push(product.brand);
   }
 }
-console.log(brandNames)
+console.log(brandNames);
 
 
 // 🎯 TODO: Sort by price
@@ -92,7 +94,7 @@ console.log(sortedByDate);
 // 2. Log the list
 
 console.log(marketplace.filter(product =>
-  product.price >= 50 && product.price <= 100))
+  product.price >= 50 && product.price <= 100));
 
 
 // 🎯 TODO: Average Basket
@@ -125,7 +127,7 @@ console.log(marketplace.reduce((total, next) =>
 // 2. Log the variable
 // 3. Log the number of products by brands
 
-const brands = {}
+const brands = {};
 for (const brand of brandNames) {
   brands[brand] = [];
 }
@@ -141,13 +143,13 @@ console.log(brands);
 
 Object.keys(brands).forEach(key => {
   console.log([...brands[key]].sort(sortPrice).reverse());
-})
+});
 
 // 🎯 TODO: Sort by date for each brand
 // 1. For each brand, sort the products by date, from old to recent
 // 2. Log the sort
 
-for (const [key, value] of Object.entries(brands)) {
+for (const key of Object.keys(brands)) {
   console.log([...brands[key]].sort(sortDate));
 }
 
@@ -164,11 +166,11 @@ for (const [key, value] of Object.entries(brands)) {
 // in 90% of the products
 
 Object.keys(brands).forEach(key => {
-  const brand = brands[key]
+  const brand = brands[key];
   brand.sort(sortPrice);
-  const pos = Math.floor((brand.length - 1) * 0.9) + 1
-  console.log(brand[pos].price)
-})
+  const pos = Math.floor((brand.length - 1) * 0.9) + 1;
+  console.log(brand[pos].price);
+});
 
 
 /**
@@ -238,11 +240,19 @@ const COTELE_PARIS = [
     uuid: 'f48810f1-a822-5ee3-b41a-be15e9a97e3f',
     released: '2020-12-21'
   }
-]
+];
 
 // 🎯 TODO: New released products
 // // 1. Log if we have new products only (true or false)
 // // A new product is a product `released` less than 2 weeks.
+
+for (const product of COTELE_PARIS) {
+  if ((Date.parse(product.released) - Date.now()) / 1000 / 3600 / 24 < 14) {
+    console.log(true);
+    break;
+  }
+  console.log(false);
+}
 
 
 // 🎯 TODO: Reasonable price
