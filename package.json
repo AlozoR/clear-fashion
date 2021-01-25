@@ -1,0 +1,28 @@
+{
+  "name": "clear-fashion",
+  "version": "1.0.0",
+  "description": "Clear fashion comparer",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlozoR/clear-fashion.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "alozor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlozoR/clear-fashion/issues"
+  },
+  "homepage": "https://github.com/AlozoR/clear-fashion#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
