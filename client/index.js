@@ -73,7 +73,7 @@ console.log(brandNames)
 
 const sortPrice = (a, b) => a.price - b.price;
 
-const sortedByPrice = marketplace.sort(sortPrice);
+const sortedByPrice = [...marketplace].sort(sortPrice);
 console.log(sortedByPrice);
 
 
@@ -84,7 +84,7 @@ console.log(sortedByPrice);
 
 const sortDate = (a, b) => a.date < b.date ? -1 : a.date === b.date ? 0 : 1;
 
-const sortedByDate = marketplace.sort(sortDate).reverse();
+const sortedByDate = [...marketplace].sort(sortDate).reverse();
 console.log(sortedByDate);
 
 // 🎯 TODO: Filter a specific price range
@@ -139,16 +139,16 @@ console.log(brands);
 // 1. For each brand, sort the products by price, from highest to lowest
 // 2. Log the sort
 
-for (const [key, value] of Object.entries(brands)) {
-  console.log(value.sort(sortPrice).reverse())
-}
+Object.keys(brands).forEach(key => {
+  console.log([...brands[key]].sort(sortPrice).reverse());
+})
 
 // 🎯 TODO: Sort by date for each brand
 // 1. For each brand, sort the products by date, from old to recent
 // 2. Log the sort
 
 for (const [key, value] of Object.entries(brands)) {
-  console.log(value.sort(sortDate))
+  console.log([...brands[key]].sort(sortDate));
 }
 
 /**
@@ -162,6 +162,13 @@ for (const [key, value] of Object.entries(brands)) {
 // 1. Compute the p90 price value of each brand
 // The p90 value (90th percentile) is the lower value expected to be exceeded
 // in 90% of the products
+
+Object.keys(brands).forEach(key => {
+  const brand = brands[key]
+  brand.sort(sortPrice);
+  const pos = Math.floor((brand.length - 1) * 0.9) + 1
+  console.log(brand[pos].price)
+})
 
 
 /**
