@@ -1,4 +1,5 @@
-// Invoking strict mode https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#invoking_strict_mode
+// Invoking strict mode
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#invoking_strict_mode
 'use strict';
 
 // current products on the page
@@ -53,7 +54,7 @@ const fetchProducts = async (page = 1, size = 12) => {
 const renderProducts = products => {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
-  const template = products
+  div.innerHTML = products
     .map(product => {
       return `
       <div class="product" id=${product.uuid}>
@@ -64,8 +65,6 @@ const renderProducts = products => {
     `;
     })
     .join('');
-
-  div.innerHTML = template;
   fragment.appendChild(div);
   sectionProducts.innerHTML = '<h2>Products</h2>';
   sectionProducts.appendChild(fragment);
@@ -77,12 +76,10 @@ const renderProducts = products => {
  */
 const renderPagination = pagination => {
   const {currentPage, pageCount} = pagination;
-  const options = Array.from(
+  selectPage.innerHTML = Array.from(
     {'length': pageCount},
     (value, index) => `<option value="${index + 1}">${index + 1}</option>`
   ).join('');
-
-  selectPage.innerHTML = options;
   selectPage.selectedIndex = currentPage - 1;
 };
 
@@ -115,6 +112,15 @@ selectShow.addEventListener('change', event => {
     .then(setCurrentProducts)
     .then(() => render(currentProducts, currentPagination));
 });
+
+selectPage.addEventListener('change', event => {
+  fetchProducts(parseInt(event.target.value),
+    currentPagination.currentPagination)
+    .then(setCurrentProducts)
+    .then(() => render(currentProducts, currentPagination));
+});
+
+selectBrand;
 
 document.addEventListener('DOMContentLoaded', () =>
   fetchProducts()
