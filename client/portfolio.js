@@ -25,6 +25,7 @@ const spanNbNew = document.querySelector('#nbNew');
 const spanp50 = document.querySelector('#p50');
 const spanp90 = document.querySelector('#p90');
 const spanp95 = document.querySelector('#p95');
+const spanLastReleased = document.querySelector('#lastRelease');
 
 /**
  * Set global value
@@ -172,6 +173,10 @@ const renderIndicators = products => {
   spanp50.innerHTML = tempProd[percentileIndex(tempProd, 50)].price;
   spanp90.innerHTML = tempProd[percentileIndex(tempProd, 90)].price;
   spanp95.innerHTML = tempProd[percentileIndex(tempProd, 95)].price;
+  const lastReleasedProd = products
+    .reduce((prev, current) =>
+      prev.released > current.released ? prev : current);
+  spanLastReleased.innerHTML = lastReleasedProd.released;
 };
 
 const render = (products, pagination) => {
