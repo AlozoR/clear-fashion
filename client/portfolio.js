@@ -7,11 +7,13 @@ let currentProducts = [];
 let currentPagination = {};
 let currentFilters = {
   'brand': '',
-  'recently': 'off'
+  'recently': 'off',
+  'reasonable': 'off'
 };
 
 // inititiate selectors
 const checkRecently = document.querySelector('#recently-check');
+const checkReasonable = document.querySelector('#reasonable-check');
 const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
 const selectBrand = document.querySelector('#brand-select');
@@ -116,7 +118,10 @@ const renderFilter = products => {
   }
   if (currentFilters['recently'] === 'on') {
     products = products.filter(product =>
-      (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 90);
+      (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 30);
+  }
+  if (currentFilters['reasonable'] === 'on') {
+    products = products.filter(product => product.price < 100);
   }
   div.innerHTML = products
     .map(product => {
@@ -181,6 +186,12 @@ selectBrand.addEventListener('change', event => {
 checkRecently.addEventListener('change', () => {
   currentFilters['recently'] =
     currentFilters['recently'] === 'on' ? 'off' : 'on';
+  render(currentProducts, currentPagination);
+});
+
+checkReasonable.addEventListener('change', () => {
+  currentFilters['reasonable'] =
+    currentFilters['reasonable'] === 'on' ? 'off' : 'on';
   render(currentProducts, currentPagination);
 });
 
