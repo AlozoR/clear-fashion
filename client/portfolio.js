@@ -22,6 +22,9 @@ const selectSort = document.querySelector('#sort-select');
 const sectionProducts = document.querySelector('#products');
 const spanNbProducts = document.querySelector('#nbProducts');
 const spanNbNew = document.querySelector('#nbNew');
+const spanp50 = document.querySelector('#p50');
+const spanp90 = document.querySelector('#p90');
+const spanp95 = document.querySelector('#p95');
 
 /**
  * Set global value
@@ -62,6 +65,9 @@ const sortPrice = (a, b) => a.price - b.price;
 
 const sortDate = (a, b) =>
   a.released < b.released ? -1 : a.released === b.released ? 0 : 1;
+
+const percentileIndex = (products, percentile) =>
+  Math.floor((products.length - 1) * percentile / 100) + 1;
 
 
 const filterProducts = products => {
@@ -162,6 +168,10 @@ const renderIndicators = products => {
   spanNbNew.innerHTML = products.filter(product =>
     (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 30)
     .length;
+  const tempProd = [...products].sort(sortPrice);
+  spanp50.innerHTML = tempProd[percentileIndex(tempProd, 50)].price;
+  spanp90.innerHTML = tempProd[percentileIndex(tempProd, 90)].price;
+  spanp95.innerHTML = tempProd[percentileIndex(tempProd, 95)].price;
 };
 
 const render = (products, pagination) => {
