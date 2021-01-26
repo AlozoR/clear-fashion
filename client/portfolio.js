@@ -5,9 +5,13 @@
 // current products on the page
 let currentProducts = [];
 let currentPagination = {};
-let currentFilters = {};
+let currentFilters = {
+  'brand': '',
+  'recently': 'off'
+};
 
-// inititiqte selectors
+// inititiate selectors
+const checkRecently = document.querySelector('#recently-check');
 const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
 const selectBrand = document.querySelector('#brand-select');
@@ -19,7 +23,7 @@ const spanNbProducts = document.querySelector('#nbProducts');
  * @param {Array} result - products to display
  * @param {Object} meta - pagination meta info
  */
-const setCurrentProducts = ({result, meta, filter}) => {
+const setCurrentProducts = ({result, meta}) => {
   currentProducts = result;
   currentPagination = meta;
 };
@@ -54,24 +58,24 @@ const fetchProducts = async (page = 1, size = 12) => {
  * Render list of products
  * @param  {Array} products
  */
-const renderProducts = products => {
-  const fragment = document.createDocumentFragment();
-  const div = document.createElement('div');
-  div.innerHTML = products
-    .map(product => {
-      return `
-      <div class="product" id=${product.uuid}>
-        <span>${product.brand}</span>
-        <a href="${product.link}">${product.name}</a>
-        <span>${product.price}</span>
-      </div>
-    `;
-    })
-    .join('');
-  fragment.appendChild(div);
-  sectionProducts.innerHTML = '<h2>Products</h2>';
-  sectionProducts.appendChild(fragment);
-};
+// const renderProducts = products => {
+//   const fragment = document.createDocumentFragment();
+//   const div = document.createElement('div');
+//   div.innerHTML = products
+//     .map(product => {
+//       return `
+//       <div class="product" id=${product.uuid}>
+//         <span>${product.brand}</span>
+//         <a href="${product.link}">${product.name}</a>
+//         <span>${product.price}</span>
+//       </div>
+//     `;
+//     })
+//     .join('');
+//   fragment.appendChild(div);
+//   sectionProducts.innerHTML = '<h2>Products</h2>';
+//   sectionProducts.appendChild(fragment);
+// };
 
 
 /**
@@ -106,10 +110,13 @@ const renderBrands = products => {
 const renderFilter = products => {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
-  for (const key of Object.keys(currentFilters)) {
-    if (currentFilters[key] !== '') {
-      products = products.filter(product => product[key] === currentFilters[key]);
-    }
+  if (currentFilters['brand'] !== '') {
+    products = products.filter(product =>
+      product['brand'] === currentFilters['brand']);
+  }
+  if (currentFilters['recently'] === 'on') {
+    products = products.filter(product =>
+      (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 90);
   }
   div.innerHTML = products
     .map(product => {
@@ -161,17 +168,20 @@ selectShow.addEventListener('change', event => {
 
 selectPage.addEventListener('change', event => {
   fetchProducts(parseInt(event.target.value),
-    currentPagination.currentPagination)
+    currentPagination.pageSize)
     .then(setCurrentProducts)
     .then(() => render(currentProducts, currentPagination));
 });
 
 selectBrand.addEventListener('change', event => {
-  fetchProducts(currentPagination.currentPage,
-    currentPagination.currentPagination)
-    .then(setCurrentProducts)
-    .then(currentFilters['brand'] = event.target.value)
-    .then(() => render(currentProducts, currentPagination));
+  currentFilters['brand'] = event.target.value;
+  render(currentProducts, currentPagination);
+});
+
+checkRecently.addEventListener('change', () => {
+  currentFilters['recently'] =
+    currentFilters['recently'] === 'on' ? 'off' : 'on';
+  render(currentProducts, currentPagination);
 });
 
 document.addEventListener('DOMContentLoaded', () =>
