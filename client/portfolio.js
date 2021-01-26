@@ -5,11 +5,12 @@
 // current products on the page
 let currentProducts = [];
 let currentPagination = {};
-let currentFilters = {
+const currentFilters = {
   'brand': '',
   'recently': 'off',
   'reasonable': 'off'
 };
+let currentSort = '';
 
 // inititiate selectors
 const checkRecently = document.querySelector('#recently-check');
@@ -17,6 +18,7 @@ const checkReasonable = document.querySelector('#reasonable-check');
 const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
 const selectBrand = document.querySelector('#brand-select');
+const selectSort = document.querySelector('#sort-select');
 const sectionProducts = document.querySelector('#products');
 const spanNbProducts = document.querySelector('#nbProducts');
 
@@ -54,6 +56,11 @@ const fetchProducts = async (page = 1, size = 12) => {
     return {currentProducts, currentPagination};
   }
 };
+
+const sortPrice = (a, b) => a.price - b.price;
+
+const sortDate = (a, b) =>
+  a.released < b.released ? -1 : a.released === b.released ? 0 : 1;
 
 
 /**
@@ -122,6 +129,22 @@ const renderFilter = products => {
   }
   if (currentFilters['reasonable'] === 'on') {
     products = products.filter(product => product.price < 100);
+  }
+
+  console.log(currentSort);
+  switch (currentSort) {
+  case 'price-asc':
+    products.sort(sortPrice);
+    break;
+  case 'price-desc':
+    products.sort(sortPrice).reverse();
+    break;
+  case 'date-asc':
+    products.sort(sortDate);
+    break;
+  case 'date-desc':
+    products.sort(sortDate).reverse();
+    break;
   }
   div.innerHTML = products
     .map(product => {
@@ -192,6 +215,11 @@ checkRecently.addEventListener('change', () => {
 checkReasonable.addEventListener('change', () => {
   currentFilters['reasonable'] =
     currentFilters['reasonable'] === 'on' ? 'off' : 'on';
+  render(currentProducts, currentPagination);
+});
+
+selectSort.addEventListener('change', event => {
+  currentSort = event.target.value;
   render(currentProducts, currentPagination);
 });
 
