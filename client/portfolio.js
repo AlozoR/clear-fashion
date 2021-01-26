@@ -63,62 +63,7 @@ const sortDate = (a, b) =>
   a.released < b.released ? -1 : a.released === b.released ? 0 : 1;
 
 
-/**
- * Render list of products
- * @param  {Array} products
- */
-// const renderProducts = products => {
-//   const fragment = document.createDocumentFragment();
-//   const div = document.createElement('div');
-//   div.innerHTML = products
-//     .map(product => {
-//       return `
-//       <div class="product" id=${product.uuid}>
-//         <span>${product.brand}</span>
-//         <a href="${product.link}">${product.name}</a>
-//         <span>${product.price}</span>
-//       </div>
-//     `;
-//     })
-//     .join('');
-//   fragment.appendChild(div);
-//   sectionProducts.innerHTML = '<h2>Products</h2>';
-//   sectionProducts.appendChild(fragment);
-// };
-
-
-/**
- * Render page selector
- * @param  {Object} pagination
- */
-const renderPagination = pagination => {
-  const {currentPage, pageCount} = pagination;
-  selectPage.innerHTML = Array.from(
-    {'length': pageCount},
-    (value, index) => `<option value="${index + 1}">${index + 1}</option>`
-  ).join('');
-  selectPage.selectedIndex = currentPage - 1;
-};
-
-
-const renderBrands = products => {
-  const brandNames = [''];
-  for (const product of products) {
-    if (!(brandNames.includes(product.brand))) {
-      brandNames.push(product.brand);
-    }
-  }
-
-  selectBrand.innerHTML = Array.from(
-    brandNames,
-    value => `<option value="${value}">${value}</option>`
-  );
-  selectBrand.selectedIndex = brandNames.indexOf(currentFilters['brand']);
-};
-
-const renderFilter = products => {
-  const fragment = document.createDocumentFragment();
-  const div = document.createElement('div');
+const filterProducts = products => {
   if (currentFilters['brand'] !== '') {
     products = products.filter(product =>
       product['brand'] === currentFilters['brand']);
@@ -131,7 +76,11 @@ const renderFilter = products => {
     products = products.filter(product => product.price < 100);
   }
 
-  console.log(currentSort);
+  return products;
+};
+
+
+const sortProducts = products => {
   switch (currentSort) {
   case 'price-asc':
     products.sort(sortPrice);
@@ -146,6 +95,17 @@ const renderFilter = products => {
     products.sort(sortDate).reverse();
     break;
   }
+};
+
+
+/**
+ * Render list of products
+ * @param  {Array} products
+ */
+const renderProducts = products => {
+  const fragment = document.createDocumentFragment();
+  const div = document.createElement('div');
+
   div.innerHTML = products
     .map(product => {
       return `
@@ -162,6 +122,35 @@ const renderFilter = products => {
   sectionProducts.appendChild(fragment);
 };
 
+
+/**
+ * Render page selector
+ * @param  {Object} pagination
+ */
+const renderPagination = pagination => {
+  const {currentPage, pageCount} = pagination;
+  selectPage.innerHTML = Array.from(
+    {'length': pageCount},
+    (value, index) => `<option value="${index + 1}">${index + 1}</option>`
+  ).join('');
+  selectPage.selectedIndex = currentPage - 1;
+};
+
+const renderBrands = products => {
+  const brandNames = [''];
+  for (const product of products) {
+    if (!(brandNames.includes(product.brand))) {
+      brandNames.push(product.brand);
+    }
+  }
+
+  selectBrand.innerHTML = Array.from(
+    brandNames,
+    value => `<option value="${value}">${value}</option>`
+  );
+  selectBrand.selectedIndex = brandNames.indexOf(currentFilters['brand']);
+};
+
 /**
  * Render page selector
  * @param  {Object} pagination
@@ -173,10 +162,11 @@ const renderIndicators = pagination => {
 };
 
 const render = (products, pagination) => {
-  // renderProducts(products);
-  renderPagination(pagination);
   renderBrands(products);
-  renderFilter(products);
+  products = filterProducts(products);
+  sortProducts(products);
+  renderProducts(products);
+  renderPagination(pagination);
   renderIndicators(pagination);
 };
 
