@@ -21,6 +21,7 @@ const selectBrand = document.querySelector('#brand-select');
 const selectSort = document.querySelector('#sort-select');
 const sectionProducts = document.querySelector('#products');
 const spanNbProducts = document.querySelector('#nbProducts');
+const spanNbNew = document.querySelector('#nbNew');
 
 /**
  * Set global value
@@ -153,12 +154,14 @@ const renderBrands = products => {
 
 /**
  * Render page selector
- * @param  {Object} pagination
+ * @param  {Object} products
  */
-const renderIndicators = pagination => {
-  const {count} = pagination;
-
-  spanNbProducts.innerHTML = count;
+const renderIndicators = products => {
+  console.log(products.length);
+  spanNbProducts.innerHTML = products.length;
+  spanNbNew.innerHTML = products.filter(product =>
+    (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 30)
+    .length;
 };
 
 const render = (products, pagination) => {
@@ -167,7 +170,7 @@ const render = (products, pagination) => {
   sortProducts(products);
   renderProducts(products);
   renderPagination(pagination);
-  renderIndicators(pagination);
+  renderIndicators(products);
 };
 
 /**
