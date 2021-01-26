@@ -19,10 +19,9 @@ const spanNbProducts = document.querySelector('#nbProducts');
  * @param {Array} result - products to display
  * @param {Object} meta - pagination meta info
  */
-const setCurrentProducts = ({result, meta}) => {
+const setCurrentProducts = ({result, meta, filter}) => {
   currentProducts = result;
   currentPagination = meta;
-
 };
 
 /**
@@ -96,15 +95,36 @@ const renderBrands = products => {
       brandNames.push(product.brand);
     }
   }
-  console.error(brandNames);
+
   selectBrand.innerHTML = Array.from(
     brandNames,
     value => `<option value="${value}">${value}</option>`
   );
+  selectBrand.selectedIndex = brandNames.indexOf(currentFilters['brand']);
 };
 
 const renderFilter = products => {
-
+  const fragment = document.createDocumentFragment();
+  const div = document.createElement('div');
+  for (const key of Object.keys(currentFilters)) {
+    if (currentFilters[key] !== '') {
+      products = products.filter(product => product[key] === currentFilters[key]);
+    }
+  }
+  div.innerHTML = products
+    .map(product => {
+      return `
+      <div class="product" id=${product.uuid}>
+        <span>${product.brand}</span>
+        <a href="${product.link}">${product.name}</a>
+        <span>${product.price}</span>
+      </div>
+    `;
+    })
+    .join('');
+  fragment.appendChild(div);
+  sectionProducts.innerHTML = '<h2>Products</h2>';
+  sectionProducts.appendChild(fragment);
 };
 
 /**
@@ -118,7 +138,7 @@ const renderIndicators = pagination => {
 };
 
 const render = (products, pagination) => {
-  renderProducts(products);
+  // renderProducts(products);
   renderPagination(pagination);
   renderBrands(products);
   renderFilter(products);
@@ -147,9 +167,10 @@ selectPage.addEventListener('change', event => {
 });
 
 selectBrand.addEventListener('change', event => {
-  fetchProducts(parseInt(event.target.value),
+  fetchProducts(currentPagination.currentPage,
     currentPagination.currentPagination)
     .then(setCurrentProducts)
+    .then(currentFilters['brand'] = event.target.value)
     .then(() => render(currentProducts, currentPagination));
 });
 
