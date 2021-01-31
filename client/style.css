@@ -1,5 +1,30 @@
+html {
+  overflow-y: scroll;
+}
+
 * {
   font-family: "Open Sans", sans-serif, 'Arial';
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+  background: white;
+}
+
+.content {
+  padding: 75px 16px 16px;
+}
+
+h2 {
+  margin: 15px 0;
 }
 
 table, th, td {
