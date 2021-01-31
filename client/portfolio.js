@@ -8,13 +8,16 @@ let currentPagination = {};
 const currentFilters = {
   'brand': '',
   'recently': 'off',
-  'reasonable': 'off'
+  'reasonable': 'off',
+  'favorite': 'off'
 };
 let currentSort = '';
+let favorites = [];
 
 // inititiate selectors
 const checkRecently = document.querySelector('#recently-check');
 const checkReasonable = document.querySelector('#reasonable-check');
+const checkFavorite = document.querySelector('#favorite-check');
 const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
 const selectBrand = document.querySelector('#brand-select');
@@ -70,18 +73,32 @@ const sortDate = (a, b) =>
 const percentileIndex = (products, percentile) =>
   Math.floor((products.length - 1) * percentile / 100) + 1;
 
+const saveAsFavorite = e => {
+  const uuid = e.currentTarget.getAttribute('data-id');
+  if (favorites.some(p => p.uuid === uuid)) {
+    favorites = favorites.filter(p => p.uuid !== uuid);
+  } else {
+    favorites.push(currentProducts.find(p => p.uuid === uuid));
+  }
+  render(currentProducts, currentPagination);
+};
+
 
 const filterProducts = products => {
-  if (currentFilters['brand'] !== '') {
-    products = products.filter(product =>
-      product['brand'] === currentFilters['brand']);
-  }
   if (currentFilters['recently'] === 'on') {
     products = products.filter(product =>
       (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 30);
   }
+  if (currentFilters['favorite'] === 'on') {
+    products = favorites;
+  }
   if (currentFilters['reasonable'] === 'on') {
     products = products.filter(product => product.price < 100);
+  }
+  renderBrands(products);
+  if (currentFilters['brand'] !== '') {
+    products = products.filter(product =>
+      product['brand'] === currentFilters['brand']);
   }
 
   return products;
@@ -116,11 +133,13 @@ const renderProducts = products => {
 
   div.innerHTML = products
     .map(product => {
+      const star = favorites.some(p => p.uuid === product.uuid) ? '★' : '☆';
       return `
       <div class="product" id=${product.uuid}>
         <span>${product.brand}</span>
         <a href="${product.link}" target="_blank">${product.name}</a>
         <span>${product.price}</span>
+        <button data-id="${product.uuid}" class="favorite">${star}</button>
       </div>
     `;
     })
@@ -164,26 +183,28 @@ const renderBrands = products => {
  * @param  {Object} products
  */
 const renderIndicators = products => {
-  console.log(products.length);
   spanNbProducts.innerHTML = products.length;
   spanNbNew.innerHTML = products.filter(product =>
     (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 30)
     .length;
-  const tempProd = [...products].sort(sortPrice);
-  spanp50.innerHTML = tempProd[percentileIndex(tempProd, 50)].price;
-  spanp90.innerHTML = tempProd[percentileIndex(tempProd, 90)].price;
-  spanp95.innerHTML = tempProd[percentileIndex(tempProd, 95)].price;
-  const lastReleasedProd = products
-    .reduce((prev, current) =>
-      prev.released > current.released ? prev : current);
-  spanLastReleased.innerHTML = lastReleasedProd.released;
+  if (products.length) {
+    const tempProd = [...products].sort(sortPrice);
+    spanp50.innerHTML = tempProd[percentileIndex(tempProd, 50)].price;
+    spanp90.innerHTML = tempProd[percentileIndex(tempProd, 90)].price;
+    spanp95.innerHTML = tempProd[percentileIndex(tempProd, 95)].price;
+    const lastReleasedProd = products
+      .reduce((prev, current) =>
+        prev.released > current.released ? prev : current);
+    spanLastReleased.innerHTML = lastReleasedProd.released;
+  }
 };
 
 const render = (products, pagination) => {
-  renderBrands(products);
   products = filterProducts(products);
   sortProducts(products);
   renderProducts(products);
+  document.querySelectorAll('.favorite').forEach(item =>
+    item.addEventListener('click', saveAsFavorite, false));
   renderPagination(pagination);
   renderIndicators(products);
 };
@@ -223,6 +244,12 @@ checkRecently.addEventListener('change', () => {
 checkReasonable.addEventListener('change', () => {
   currentFilters['reasonable'] =
     currentFilters['reasonable'] === 'on' ? 'off' : 'on';
+  render(currentProducts, currentPagination);
+});
+
+checkFavorite.addEventListener('change', () => {
+  currentFilters['favorite'] =
+    currentFilters['favorite'] === 'on' ? 'off' : 'on';
   render(currentProducts, currentPagination);
 });
 
