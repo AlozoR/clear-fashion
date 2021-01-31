@@ -162,12 +162,8 @@ const renderProducts = products => {
   //     <td>${product.brand}</td>
   //     <td><a href="${product.link}" target="_blank">${product.name}</a></td>
   //     <td>${product.price}</td>
-  //     <td><button data-id="${product.uuid}" class="favorite">${star}</button></td>
-  //   </tr>
-  //   `;
-  // }).join('')}
-  // </table>
-  // `;
+  //     <td><button data-id="${product.uuid}"
+  // class="favorite">${star}</button></td> </tr> `; }).join('')} </table> `;
 
   // fragment.appendChild(div);
   // sectionProducts.innerHTML = '<h2>Products</h2>';
@@ -212,7 +208,7 @@ const renderIndicators = products => {
   spanNbNew.innerHTML = products.filter(product =>
     (Date.now() - Date.parse(product.released)) / 1000 / 3600 / 24 < 30)
     .length;
-  if (products.length) {
+  if (products.length > 1) {
     const tempProd = [...products].sort(sortPrice);
     spanp50.innerHTML = tempProd[percentileIndex(tempProd, 50)].price;
     spanp90.innerHTML = tempProd[percentileIndex(tempProd, 90)].price;
@@ -243,7 +239,9 @@ const render = (products, pagination) => {
  * @type {[type]}
  */
 selectShow.addEventListener('change', event => {
-  fetchProducts(currentPagination.currentPage, parseInt(event.target.value))
+  const page = Math.round(currentPagination.currentPage
+    * (currentPagination.pageSize / parseInt(event.target.value)));
+  fetchProducts(page, parseInt(event.target.value))
     .then(setCurrentProducts)
     .then(() => render(currentProducts, currentPagination));
 });

@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #F4F7F6;
 }
 
 .header {
@@ -16,15 +17,64 @@ body {
   width: 100%;
   text-align: center;
   border-bottom: 1px solid #dedede;
-  background: white;
+  background: #F4F7F6;
 }
 
 .content {
-  padding: 75px 16px 16px;
+  padding-top: 64px;
 }
 
 h2 {
   margin: 15px 0;
+}
+
+#options {
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #dedede;
+}
+
+.options-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F4F7F6;
+}
+
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-left: 1px solid #dedede;
+  vertical-align: middle;
+}
+
+li:hover {
+  background-color: white;
+}
+
+select {
+  margin: 1px;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  -webkit-appearance: button;
+}
+
+#page-select {
+  width: 41px;
+}
+
+#brand-select {
+  width: 104px;
+}
+
+#indicators {
+  padding-top: 58px;
 }
 
 table, th, td {
