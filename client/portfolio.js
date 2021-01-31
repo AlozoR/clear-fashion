@@ -22,13 +22,14 @@ const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
 const selectBrand = document.querySelector('#brand-select');
 const selectSort = document.querySelector('#sort-select');
-const sectionProducts = document.querySelector('#products');
+// const sectionProducts = document.querySelector('#products');
 const spanNbProducts = document.querySelector('#nbProducts');
 const spanNbNew = document.querySelector('#nbNew');
 const spanp50 = document.querySelector('#p50');
 const spanp90 = document.querySelector('#p90');
 const spanp95 = document.querySelector('#p95');
 const spanLastReleased = document.querySelector('#lastRelease');
+// const thPrice = document.querySelector('#price-th');
 
 /**
  * Set global value
@@ -73,8 +74,8 @@ const sortDate = (a, b) =>
 const percentileIndex = (products, percentile) =>
   Math.floor((products.length - 1) * percentile / 100) + 1;
 
-const saveAsFavorite = e => {
-  const uuid = e.currentTarget.getAttribute('data-id');
+const saveAsFavorite = event => {
+  const uuid = event.currentTarget.getAttribute('data-id');
   if (favorites.some(p => p.uuid === uuid)) {
     favorites = favorites.filter(p => p.uuid !== uuid);
   } else {
@@ -128,25 +129,49 @@ const sortProducts = products => {
  * @param  {Array} products
  */
 const renderProducts = products => {
-  const fragment = document.createDocumentFragment();
-  const div = document.createElement('div');
-
-  div.innerHTML = products
-    .map(product => {
-      const star = favorites.some(p => p.uuid === product.uuid) ? '★' : '☆';
-      return `
-      <div class="product" id=${product.uuid}>
-        <span>${product.brand}</span>
-        <a href="${product.link}" target="_blank">${product.name}</a>
-        <span>${product.price}</span>
-        <button data-id="${product.uuid}" class="favorite">${star}</button>
-      </div>
+  // const fragment = document.createDocumentFragment();
+  // const div = document.createElement('div');
+  const table = document.querySelector('#product-table');
+  table.innerHTML = products.map(product => {
+    const star = favorites.some(p => p.uuid === product.uuid) ? '★' : '☆';
+    return `
+    <tr>
+      <td>${product.brand}</td>
+      <td><a href="${product.link}" target="_blank">${product.name}</a></td>
+      <td>${product.price}</td>
+      <td><button data-id="${product.uuid}" class="favorite">${star}</button></td>
+    </tr>
     `;
-    })
-    .join('');
-  fragment.appendChild(div);
-  sectionProducts.innerHTML = '<h2>Products</h2>';
-  sectionProducts.appendChild(fragment);
+  }).join('');
+
+
+  // div.innerHTML = `
+  // <table>
+  //   <thead>
+  //     <tr>
+  //       <th>Brand</th>
+  //       <th>Link to the product page</th>
+  //       <th>Price</th>
+  //       <th>Save as favorite</th>
+  //     </tr>
+  //    </thead>
+  //    ${products.map(product => {
+  //   const star = favorites.some(p => p.uuid === product.uuid) ? '★' : '☆';
+  //   return `
+  //   <tr>
+  //     <td>${product.brand}</td>
+  //     <td><a href="${product.link}" target="_blank">${product.name}</a></td>
+  //     <td>${product.price}</td>
+  //     <td><button data-id="${product.uuid}" class="favorite">${star}</button></td>
+  //   </tr>
+  //   `;
+  // }).join('')}
+  // </table>
+  // `;
+
+  // fragment.appendChild(div);
+  // sectionProducts.innerHTML = '<h2>Products</h2>';
+  // sectionProducts.appendChild(fragment);
 };
 
 
@@ -257,6 +282,10 @@ selectSort.addEventListener('change', event => {
   currentSort = event.target.value;
   render(currentProducts, currentPagination);
 });
+
+// thPrice.addEventListener('click', () => {
+//   return undefined;
+// });
 
 document.addEventListener('DOMContentLoaded', () =>
   fetchProducts()
