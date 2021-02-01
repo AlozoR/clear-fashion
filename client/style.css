@@ -38,18 +38,22 @@ h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-y: auto;
   background-color: #F4F7F6;
+  white-space: nowrap;
 }
 
 li {
-  float: left;
-  display: block;
+  margin-left: -4px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   border-left: 1px solid #dedede;
-  vertical-align: middle;
+  height: 59px;
+  box-sizing: border-box;
 }
 
 li:hover {
