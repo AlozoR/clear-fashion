@@ -1,0 +1,4102 @@
+[
+  {
+    "name": "Sweatshirt Malmoe All We Have",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Bold Support Leaf Green",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Storlien Spread Logo Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Hoddevik Black",
+    "price": 199,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Hoddevik Orange",
+    "price": 199,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Hoddevik Leaf Green",
+    "price": 199,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Dundret Orange",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Dundret Black",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Black",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Orange",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Leaf Green",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Orsa Brown",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Kalmar Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Orsa Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Cut Mountain",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm NES Consol",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Superpower",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Bowser",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Super Mario Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Worker Jacket Sala Thin Stripes",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Leksand Black",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Kinna Leaf Green",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Kinna Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Clouds",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Green Tube",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario Pattern Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Molkom Ducks",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Ducks",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Trysil Big Check",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Clouds",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Whales",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Cross Stitch Support",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Drawn Mountain Grey Melange",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Education",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Super Mario Pattern Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Good Things",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Universal Love",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Love Your Mother",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Gangsta Rap",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Rainbow Vibes",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Catastrophe",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Plastic",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Like Adults",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Doing My Best White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Give Me Some Space",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Coffee Mind",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Bike People Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Autumn Birds Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm How to Draw an Owl",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm NES Consol",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Bike People Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm NES Consol",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Give Me Some Space",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Love Your Mother",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Super Mario Pattern Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Video Retro",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Superpower",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm How to Draw an Owl",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Lazer Cats",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Catastrophe",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Plastic",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Save the Arctic",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Universal Love",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Good Things",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Mother Nature",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Going Gone Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Rainbow Vibes",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Video Retro White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Like Adults",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Gangsta Rap",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Mountain Wolf",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Forest Owl",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm You Fucked The Planet",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Shellfish",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Coffee Mug",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Doing My Best White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Fuck Racism Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Fuck Racism White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Cat Crowd",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Coffee Mind",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Stripes Mocha Brown",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Sleeve T-shirt Hasle Stripes Mocha Brown",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Stripes Burgundy",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Sleeve T-shirt Hasle Stripes Burgundy",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Cat Flip Grey Melange",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Surf Camp",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Bike Front Charcoal",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Beer Biker",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Oh Shit",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Super Mario Pattern Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base 3-pack",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base 3-pack",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base 3-pack",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base 3-pack",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Off-White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Charcoal",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Grey Melange",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Black",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Dedicated Logo Burgundy",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Logo",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Dedicated Logo Black",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Logo Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Leaf Green",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Golden Yellow",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Burgundy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Spread Logo Beige",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Storlien Spread Logo",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Logo Grey Melange",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Dedicated Logo Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Dedicated Logo Grey Melange",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Dedicated Logo Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Dedicated Logo White",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Dedicated Logo Golden Yellow",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Base Mustard",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Sleeve T-shirt Hasle Stripes Burgundy",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Stripes Burgundy",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Sleeve T-shirt Hasle Stripes Mocha Brown",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Stripes Mocha Brown",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Double Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Double Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Base Black",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Base Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe All We Have",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Bold Support Leaf Green",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Vote Earth",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Bicycle",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Stitched Wave Navy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Local Planet Navy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Bold Support Burgundy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Logo",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Bike People",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Color Bike Grey Melange",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Good and You",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Freedom Machine",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Storlien Spread Logo Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Logo Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Dedicated Logo Black",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun World",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Color Bike Beige",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Spread Logo Beige",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Gratitude",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Stitch Bike Leaf Green",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Tie Dye",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Split Golden Yellow",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Bicycle",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Mountain Navy",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Dedicated Logo Burgundy",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Storlien Spread Logo",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Color Bike Grey Melange",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Map Multi Color",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Text Bike",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Mountain Navy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Mono Stripe Navy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Mono Stripe Burgundy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Falun Mono Stripe Navy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Dedicated Logo Grey Melange",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Mountain Grey Melange",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Stitch Bike Grey Melange",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Bowser",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Malmoe Super Mario",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Storlien Split Golden Yellow",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Orsa Brown",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Kalmar Brown",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Orsa Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Kalmar Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Kalmar Blue",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Cut Mountain",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Trysil Big Check",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Molkom Big Check",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Knitted Husum Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Knitted Husum Blue",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Ducks",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Molkom Ducks",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Short Sleeve Gnesta Black",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Clouds",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Bowser",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Mora Super Mario",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Secret Garden",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Mountain Peaks",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Whales",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Map",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Rute Flannel Checker Beige",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Rute Flannel Checker Orange",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Corduroy Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Corduroy Mocha Brown",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Edsbyn Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Edsbyn Leaf Green",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Corduroy Leaf Green",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Khaki Leaves",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Paisley",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Marstrand Khaki Leaves",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Marstrand Collage Leaves",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Marstrand Monkey Trees",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Marstrand Big Stripes",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Sandefjord Map",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Sandefjord Paisley",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Kinna Leaf Green",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Kinna Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Lerum Mocha Brown",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Lerum Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Klitmoeller Thin Stripes",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Klitmoeller Green",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Dedicated Logo Grey Melange",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Dedicated Logo Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Dedicated Logo Leaf Green",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Dedicated Logo Charcoal",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Map",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Tie Dye",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Ljugarn Flannel Checker Orange",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Ljugarn Flannel Checker Beige",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Pants Sundsvall Burgundy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jogger Lund NES Stripe",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shorts Vejle Thin Stripes",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shorts Vejle Green",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Shorts Nacka",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Shorts Nacka",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Split Navy",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Pants Sundsvall Light Blue",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Lund Autumn Birds Off White",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Hoddevik Black",
+    "price": 199,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Hoddevik Orange",
+    "price": 199,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Hoddevik Leaf Green",
+    "price": 199,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Dundret Black",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Dundret Orange",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Dundret Winter Woods",
+    "price": 299,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Leksand Mocha Brown",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jacket Leksand Black",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Worker Jacket Sala Navy",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Worker Jacket Sala Black",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Worker Jacket Sala Thin Stripes",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Windbreaker Skara Black",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Windbreaker Skara Map",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Windbreaker Skara Blocks",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Orange",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Brown",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Leaf Green",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Purple",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Golden Yellow",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Black",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Golden Yellow",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Lofoten Burgundy",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Super Mario",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Solid Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse Big Check",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse Big Check",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse NES Logo",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Dedicated Logo Black",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Snapback Cap Stitch Bike Navy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Snapback Color Bike",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bucket Hat Dedicated Logo White",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Banana",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Palm Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Lofoten Black",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Snapback Cactus",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Clouds",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Green Tube",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario Pattern Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bowser",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bad Mother",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Pulp Fiction Dance",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Monstera",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Lemons Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees Leaf Green",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bike Pattern Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Two Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Color Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Multi Dots Pink",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Multi Dots Navy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Lips Pink",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Monstera",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bananas White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Big Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bike Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Double Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Double Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Navy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Tapes Grey",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Tapes Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Arizona Grey",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Arizona Burgundy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Mountain Navy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Big Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Lynx Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Notes White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dedicated Logo",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Peach",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Whale",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Bike Pattern Golden Yellow",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Trees",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Super Mario Pattern White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Super Mario Pattern Black",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Clouds",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Paisley Pattern",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Lemons",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Fuck Racism Stripes",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Bike Pattern White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Bike Pattern Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Base Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Base Black",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Johns Abisko Trees",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Johns Abisko Bike Pattern",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Johns Abisko",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Johns Abisko Ski Area",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Bike Pattern Black",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Base White",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Base Burgundy",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Bike Pattern Burgundy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Fuck Racism",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Ski Area",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Fuck Racism Blue",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Bananas Pink",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Banana Leaves",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Long Johns Abisko Map",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Boxer Briefs Kalix Map",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Ice Creams",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Daisy",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Map",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Collage Leaves",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Coconuts",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Bananas",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Palms",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Fish",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Lemons",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Medallions",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Paisley",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Love Mother",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov All We Have",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Good Things",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Doing My Best",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Coffee Vinyl",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov More",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Orange",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Brown",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Purple",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Golden Yellow",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Oxford Navy",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Oxford Black",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Pants Sundsvall Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Pants Sundsvall Khaki",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Lemon Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Lemon Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Lopez",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Honolua Beaver",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Daisy",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Sandefjord Daisy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Shorts Nacka",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Chino Shorts Nacka",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Mmmm Yummy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm I Want To Dance",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Pulp Fiction Dance",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bad Mother",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Dedicated Logo Mint",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Surf Peace",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Pulp Fiction",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Pool",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Oxford Evergreen",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Chambray",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Leaf Green",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Oxford",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Varberg Oxford Burgundy",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Donut White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Stockholm Daffy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna ET Moon",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Extra Terrestrial",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dedicated Script",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Palms",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Big Dots Blue",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Kalmar Yellow",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Short Sleeve Gnesta Yellow",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Molkom Palms Red",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Rutbo Blocks",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Arendal Bold Stripes",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Grey Melange",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Local Planet Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Sundborn Spread Logo",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Mustard",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Overall Hultsfred Black",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Whales",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Cross Stitch Support",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Mountain Wolf",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Superpower",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Stripes Burgundy",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Stripes Mocha Brown",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Fern",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Cone Bird",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Haparanda Tie Dye",
+    "price": 319,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Tie Dye",
+    "price": 299,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Haparanda Black",
+    "price": 299,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Orange",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Black",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Black",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse Big Check",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Golden Yellow",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Lima Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Black",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Lima Leaf Green",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Leaf Green",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees Leaf Green",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Charcoal",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Grey Melange",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Mustard",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Your Body Grey Melange",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Your Body Off-White",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Gratitude",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Local Planet Navy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Autumn Birds Off White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Bike People Off White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Birds",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Girl Power",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Frenchie",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Feminista",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Catastrophe",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Pussies Unite",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Crayon Plants",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Stripes Mocha Brown",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Stripes Burgundy",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Lazer Cats",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Lemon Tree",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Lipstick Red",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby More",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Rainbow Cloud",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Lips Pattern",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Catastrophe",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Venus Power",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Respect Life Charcoal",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Feminista",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Frenchie",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Superpower",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Shellfish",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Friend To Strays",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Mountain Wolf",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Forest Owl",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Grey Melange",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Charcoal",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Pants",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Boots",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Autumn Birds Off White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Bike People Off White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Fuck Racism Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Bowser",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Black",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Charcoal",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Grey Melange",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Future Is Female",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Little Bird",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Nora Daisy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Namsos Daisy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Namsos Lace Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Flor Charcoal",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Charcoal",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Grey Melange",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Grey Melange",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Burgundy",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Golden Yellow",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Charcoal",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Black",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Grey Melange",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Leaf Green",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Beige",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Purple",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Burgundy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Off-White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Black",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Burgundy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Golden Yellow",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Leaf Green",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Beige",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Flor Charcoal",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Flor Golden Yellow",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Lykke Charcoal",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Off-White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Golden Yellow",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Mustard",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Sweet Lilac",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Rose",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Navy",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Base Yellow",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Mustard",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Yellow",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Base Rose",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Alta Lace Black",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Double Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Double Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dedicated Logo Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dedicated Logo",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Hoodie Sundborn Spread Logo",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Local Planet Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Rainbow Cloud",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Peach",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Your Body Off-White",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Your Body Grey Melange",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Gratitude",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan All We Have",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Grey Melange",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Black",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Tie Dye",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Good and You",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Mustard",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Autumn Birds Off White",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Garden",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Fern",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Bold Support",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Base Burgundy",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Golden Yellow",
+    "price": 59,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan World",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Mariestad Beige",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Mariestad Leaf Green",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Cone Bird",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Raglan Super Mario",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Lerdala Charcoal",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Halfzip Mariestad Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Vote Earth",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Split Grey Melange",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Planet Support Mint",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Split Off-White",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Equality Off-White",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Yellow",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Big Stripes",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad One Line Cat Rose",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Plant",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Flowers",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Feminist",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad One Line Cat",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Love",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Rutbo Blocks",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Sola Ducks",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Idre Cats",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Arendal Cats",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Sola Big Check",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Lo Big Check",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Oslo Golden Yellow",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Oslo Black",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Arendal Bold Stripes",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Cardigan Sola Deep Forest Pink",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Lo Black",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Lo Cut Mountain Multi Color",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Hjo Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Hjo Black",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Lo Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Lo Big Check",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Mountain Peaks",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Leaf Green",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Black",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kaftan Lysekil Black",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Dress Maribo Terazzo",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dorothea Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Lima Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Lima Leaf Green",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Leaf Green",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kimono Allerum Black",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kimono Allerum Mocha Brown",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dorothea Whales",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Fredericia Whales",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dress Trondheim Mountain Peaks",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Fredericia Khaki Leaves",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Blouse Lycka Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kimono Viken Secret Garden",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dorothea Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kimono Viken Black",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Blouse Lycka Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Nibe Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dorothea Monkey Trees",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Nibe Monkey Trees",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kimono Viken Collage Leaves",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kimono Viken Monkey Trees",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dorothea Big Stripes Yellow",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Short Sleeve Nibe Big Stripes",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Dorothea White",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Fredericia Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Workwear Vara Mocha Brown",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Skagen Mountain Peaks",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Skirt Nossebro Black",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Skagen Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Overall Hultsfred Black",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Overall Hultsfred",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jumpsuit Emmaboda Green",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jumpsuit Emmaboda Thin Stripes",
+    "price": 119,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Vara Workwear Black",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Skirt Nossebro Mocha Brown",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Overall Hultsfred Thin Stripes",
+    "price": 129,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Skirt Klippan",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Skirt Klippan Khaki Leaves",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Moss Black",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Moss Khaki Leaves",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Moss Collage Leaves",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Pants Skagen Big Stripes Yellow",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shorts Sandvika Collage Leaves",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shorts Sandvika Monkey Trees",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shorts Sandvika Black",
+    "price": 69,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Tie Dye",
+    "price": 299,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Haparanda Tie Dye",
+    "price": 319,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Orange",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Black",
+    "price": 249,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Haparanda Black",
+    "price": 299,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Boden Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Puffer Jacket Haparanda Secret Garden",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Leaf Green",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Orange",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Brown",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Purple",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Off-White",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Black",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Golden Yellow",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Solid Black",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Super Mario",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse Big Check",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Narvik Golden Yellow",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Snapback Cap Stitch Bike Navy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Snapback Color Bike",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Lofoten Burgundy",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse Big Check",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Scarf Knitted Rosse NES Logo",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Dedicated Logo Black",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bucket Hat Dedicated Logo White",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Lofoten Black",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Cap Banana",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dirty Dancing Logo",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Color Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Two Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Lips Pink",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Lips Pattern Burgundy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bike Pattern Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario Pattern Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bananas White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Golden Yellow",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Green Tube",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Clouds",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Fuck Racism Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Multi Dots Navy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Multi Dots Pink",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Monstera",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Navy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dots Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bike Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bad Mother",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Pulp Fiction Dance",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Animal Pattern",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bike Pattern Burgundy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Big Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Big Stripes",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Lemons Black",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Arizona Grey",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Big Dots Blue",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Ice Creams",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna 2-pack Animal Pattern Pink and Lynx Black",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna 2-pack Bananas White and Pink",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna 2-pack Fuck Racism White and Black",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna 2-pack Multi Dots Pink and Navy",
+    "price": 19,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees Navy",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees Leaf Green",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Trees White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Toad",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Super Mario Pattern White",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Swimsuit Rana Big Stripes",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Wrap Swimsuit Klinte Big Stripes",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Swimsuit Rana",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Wrap Swimsuit Klinte",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Swimsuit Rana Daisy",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Wrap Swimsuit Klinte Daisy",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sport Swimsuit Rana Collage Leaves",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Wrap Swimsuit Klinte Collage Leaves",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Surfsuit Tofta Collage Leaves",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Top Hemse Collage Leaves",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Top Hemse Big Stripes",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Top Hemse",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Pants Slite Big Stripes",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Briefs Burgsvik Big Stripes",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Pants Slite Collage Leaves",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Briefs Burgsvik Collage Leaves",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Pants Slite Daisy",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Briefs Burgsvik Daisy",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Pants Slite",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Bikini Briefs Burgsvik",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Love Mother",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov All We Have",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Good Things",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Doing My Best",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov Coffee Vinyl",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Tote Bag Torekov More",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Grey Melange",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Black",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Pulp Fiction",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Love Red",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Bad Mother",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Pulp Fiction Dance",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Mysen Mermaids",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Say What Again",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Ystad Base Violet Tulip",
+    "price": 54,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Flor Rose",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Arendal Pulp Fiction Dance",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Kaftan Lysekil Khaki Leaves",
+    "price": 99,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Shirt Fredericia Black",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Navy",
+    "price": 27,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Kiruna Burgundy",
+    "price": 27,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Lofoten Light Grey",
+    "price": 27,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Beanie Lofoten Navy",
+    "price": 27,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Lerdala Beige",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Lerdala Purple",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Paint Pattern",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Birds",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Namsos Daisy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Nora Daisy",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Ystad Sweatshirt Girl Power",
+    "price": 79,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweater Arendal Skier",
+    "price": 89,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna ET Moon",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Extra Terrestrial",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Vadstena Double Stripes Violet Tulip",
+    "price": 14,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Vadstena Double Stripes White",
+    "price": 14,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Black Feather",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Blue Tit",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Paint Blocks",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Paint Horizon",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Visby Jump Pattern",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Nora Lace Yellow",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Namsos Lace Yellow",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Nora Big Stripes",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Top Namsos Big Stripes",
+    "price": 34,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dirty Dancing Baby",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Socks Sigtuna Dirty Dancing Logo",
+    "price": 9,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Secret Garden",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Tie Dye",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Hamra Clouds",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Hamra Super Mario Pattern White",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Hamra Whales",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Hamra Trees",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Dress Vetlanda Trees",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Dress Vetlanda Whales",
+    "price": 39,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Doing My Best",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Doing My Best White",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Garden",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Superpower",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Astrid",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Fuck Racism",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Hamra Super Mario Pattern Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Hamra Lemons",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Body Vimmerby Bike Pattern",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Body Vimmerby Whales",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Bananas",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Eat Fruit",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Body Vimmerby Lemons",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Body Vimmerby Fuck Racism Stripes",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Gangsta Rap",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Beast",
+    "price": 24,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Gangsta Rap",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Body Vimmerby Trees",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Blue Birds",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Dogs",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Map",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Ski Area",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Ice Creams",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Bike Pattern Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Terazzo",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Mix Table",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Small Fish",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Color Leaves",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Japanese Waves",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Banana Leaves",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Jungle",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "T-shirt Lillehammer Dots Heather Rose",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Secret Garden",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Tie Dye",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Autumn Birds",
+    "price": null,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Girl Power",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Split",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Garden",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Eat Fruit",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Map",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Bike Pattern",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Ski Area",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Split Grey Melange",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Sweatshirt Katthult Big Stripes",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jogger Tomelilla Secret Garden",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Jogger Tomelilla Tie Dye",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Clouds",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Super Mario Pattern White",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Whales",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Trees",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Super Mario Pattern Black",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Autumn Birds",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Girl Power",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Ski Area",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Lemons",
+    "price": 29,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Bike Pattern",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Map",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Big Stripes",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Joggers Tomelilla Split",
+    "price": 49,
+    "brand": "DEDICATED"
+  },
+  {
+    "name": "Leggings Lummelunda Fuck Racism Stripes",
+    "price": 29,
+    "brand": "DEDICATED"
+  }
+]
