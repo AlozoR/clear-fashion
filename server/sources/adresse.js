@@ -1,6 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const {'v5': uuidv5} = require('uuid');
+const utils = require('../utils');
 
 const ADRESSE = 'https://adresse.paris/630-toute-la-collection?id_category=630&n=109';
 
@@ -28,6 +29,7 @@ const parse = data => {
       const photo = $(element)
         .find('.img-responsive.img_0')
         .attr('data-original');
+      const date = utils.randomDate(new Date(2020, 1, 1), new Date()).toISOString().slice(0, 10);
       const link = $(element)
         .find('.product-name')
         .attr('href');
@@ -37,6 +39,7 @@ const parse = data => {
         price,
         brand: 'adresse',
         photo,
+        date,
         link,
         _id
       };
