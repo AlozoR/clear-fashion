@@ -2,6 +2,7 @@
 const dedicatedbrand = require('./sites/dedicatedbrand');
 const loom = require('./sites/loom');
 const db = require('./db');
+const fs = require('fs');
 
 async function sandbox () {
   try {
@@ -70,4 +71,9 @@ async function sandbox () {
   }
 }
 
-sandbox();
+// sandbox();
+const rawdata = fs.readFileSync('products.json');
+const products = JSON.parse(rawdata);
+db.insert(products).then(() => {
+  console.log('done');
+});
