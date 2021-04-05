@@ -139,6 +139,7 @@ const renderProducts = products => {
     <tr>
       <td>${product.brand}</td>
       <td><a href="${product.link}" target="_blank">${product.name}</a></td>
+      <td><img src="${product.photo}" alt="Photo of product" height="200"/></td>
       <td>${product.price}</td>
       <td><button data-id="${product.uuid}" class="favorite">${star}</button></td>
     </tr>
