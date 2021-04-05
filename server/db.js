@@ -42,9 +42,18 @@ const findPrice = async price => {
   console.log(products);
 };
 
+const findSorted = async () => {
+  db = await init();
+  const collection = db.collection('products');
+  const products = await collection.find().sort({'price': 1}).toArray();
+
+  console.log(products);
+};
+
 
 // insertProducts().then(() => {
 //   console.log('Insertion complete!');
 // });
 // findBrand('ADRESSE Paris');
-findPrice(50);
+// findPrice(50);
+findSorted();
