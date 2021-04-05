@@ -16,6 +16,11 @@ async function sandbox() {
       allProducts = allProducts.concat(products);
     }
 
+    allProducts = Array.from(new Set(allProducts.map(p => p.name)))
+      .map(name => {
+        return allProducts.find(p => p.name === name);
+      });
+
     let products = await adresse.scrape();
     products.forEach(product => product.brand = 'ADRESSE Paris');
     allProducts = allProducts.concat(products);
