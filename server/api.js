@@ -36,5 +36,12 @@ app.get('/products/search', async (request, response) => {
   response.send(result);
 });
 
+app.get('/products/:id', async (request, response) => {
+  const mongoQuery = {_id: request.params.id};
+  console.log(mongoQuery);
+  const mongoResult = await db.find(mongoQuery);
+  response.send(mongoResult);
+});
+
 app.listen(PORT);
 console.log(`📡 Running on port ${PORT}`);
