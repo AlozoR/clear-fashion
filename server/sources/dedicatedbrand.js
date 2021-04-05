@@ -1,5 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const {'v5': uuidv5} = require('uuid');
 
 const DEDICATED_BRAND = 'https://www.dedicatedbrand.com';
 
@@ -23,8 +24,21 @@ const parse = data => {
           .find('.productList-price')
           .text()
       );
-
-      return {name, price};
+      const photo = $(element)
+        .find('.productList-image img')
+        .attr('src');
+      const link = `${DEDICATED_BRAND}${$(element)
+        .find('.productList-link')
+        .attr('href')}`;
+      const _id = uuidv5(link, uuidv5.URL);
+      return {
+        name,
+        price,
+        brand: 'dedicated',
+        link,
+        photo,
+        _id
+      };
     })
     .get();
 };

@@ -1,8 +1,8 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const {'v5': uuidv5} = require('uuid');
 
 const ADRESSE = 'https://adresse.paris/630-toute-la-collection?id_category=630&n=109';
-
 
 /**
  * Parse webpage e-shop
@@ -12,7 +12,7 @@ const ADRESSE = 'https://adresse.paris/630-toute-la-collection?id_category=630&n
 const parse = data => {
   const $ = cheerio.load(data);
 
-  return $('.ajax_block_product')
+  return $('.ajax_block_product').not('.blocproduit')
     .map((i, element) => {
       const name = $(element)
         .find('.product-name')
@@ -25,8 +25,21 @@ const parse = data => {
           .trim()
           .replace(/\s/g, ' ')
       );
-
-      return {name, price};
+      const photo = $(element)
+        .find('.img-responsive.img_0')
+        .attr('data-original');
+      const link = $(element)
+        .find('.product-name')
+        .attr('href');
+      const _id = uuidv5(link, uuidv5.URL);
+      return {
+        name,
+        price,
+        brand: 'adresse',
+        photo,
+        link,
+        _id
+      };
     })
     .get();
 };

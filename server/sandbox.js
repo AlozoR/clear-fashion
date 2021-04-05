@@ -12,7 +12,6 @@ async function sandbox() {
       const products = await dedicatedbrand.scrape(page);
       // console.log(products);
       console.log('done');
-      products.forEach(product => product.brand = 'DEDICATED');
       allProducts = allProducts.concat(products);
     }
 
@@ -22,7 +21,6 @@ async function sandbox() {
       });
 
     let products = await adresse.scrape();
-    products.forEach(product => product.brand = 'ADRESSE Paris');
     allProducts = allProducts.concat(products);
     const json = JSON.stringify(allProducts, null, 2);
     fs.writeFile('products.json', json, 'utf8', () => {
