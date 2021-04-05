@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "mongodb": "^3.6.4",
+    "paginate-info": "^1.0.4",
     "parse-domain": "^3.0.3",
     "require-all": "^3.0.0",
     "uuid": "^8.3.2"

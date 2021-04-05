@@ -24,5 +24,8 @@
   "homepage": "https://github.com/AlozoR/clear-fashion#readme",
   "devDependencies": {
     "eslint": "^7.18.0"
+  },
+  "dependencies": {
+    "paginate-info": "^1.0.4"
   }
 }

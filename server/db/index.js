@@ -91,6 +91,19 @@ module.exports.find = async query => {
   }
 };
 
+module.exports.findAndSort = async (query, sort) => {
+  try {
+    const db = await getDB();
+    const collection = db.collection(MONGODB_COLLECTION);
+    const result = await collection.find(query).sort(sort).toArray();
+
+    return result;
+  } catch (error) {
+    console.error('🚨 collection.find...', error);
+    return null;
+  }
+};
+
 module.exports.findSortAndLimit = async (query, sort, limit) => {
   try {
     const db = await getDB();
